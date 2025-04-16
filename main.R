@@ -76,7 +76,7 @@ df$PrimaryCare <- df$q42
 #####################################################################################################
 
 # histogram of EHR use (0 to 100 scale)
-hist(df$EHR, breaks = 10, main = "Number of Hospitals Integration EHR", xlab = "Percent of EHR Integration (0% to 100%)")
+hist(df$EHR, breaks = 10, main = "Level of EHR Integration", xlab = "Percent of EHR Integration (0% to 100%)")
 
 # histogram of patient engagement and shared decision-making (0 to 100 scale)
 hist(df$PatientEngagement, breaks = 10, main = "Number of Hospitals Sharing Decision-Making", xlab = "Percent of Shared Decision-Making (0% to 100%)")

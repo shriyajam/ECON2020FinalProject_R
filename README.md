@@ -41,7 +41,7 @@ STEP 4: RUNNING THE R SCRIPT FILE FOR THE ANALYSIS
 1. Once the dataset is loaded into your folder, please run the R script file (“main.R”). 
 2. This R-script file does three things. It is split into three chunks of code: 
     1. First, it cleans the variables for regression. The R-Script comments provide detailed descriptions of the variables and the code. 
-    2. Second, the R-script file creates two histograms: one histogram of the EHR use outcome and another histogram of the patient engagement outcome. These are both continuous outcomes on a 0 to 100 scale. 
+    2. Second, the R-script file creates two histograms: one histogram of the EHR use outcome and another histogram of the patient engagement outcome. These are both continuous outcomes on a 0 to 100 scale. If you don't want to run the histograms but see what they look like, please click on EHR_histo.png file in this repository to see an example of what one of the histograms (EHR Use outcome) might look like. 
     3. Third, the R-script file runs five regression models on this data (one model per outcome). 
 3. Do NOT commit the changes or push to GitHub. This dataset requires institutional sign-on before using it, and therefore, it may not be shared publicly for anyone to access. Again, please do NOT commit the changes or push to GitHub because this repository is public. 
 
