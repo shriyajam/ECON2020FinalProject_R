@@ -2,6 +2,9 @@
 .Rhistory
 .Rapp.history
 
+# Never track or upload the dataset
+Hospital_Public_NSHOS.dta
+
 # Session Data files
 .RData
 .RDataTmp
